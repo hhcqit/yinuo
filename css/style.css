@@ -4,6 +4,8 @@ html {
 body {
   font-size: 12px;
   font-family: "Microsoft yahei";
+  color: #434343;
+  background: transparent;
 }
 a {
   text-decoration: none;
@@ -24,10 +26,6 @@ li {
 }
 .rt {
   float: right;
-}
-body {
-  color: #434343;
-  background: transparent;
 }
 #erweima {
   width: 10%;
