@@ -1,0 +1,17 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.ttf?t=1519810514882') format('truetype');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-iconfontzhizuobiaozhun22:before { content: "\e615"; }
+
+.icon-weibiaoti-:before { content: "\e60d"; }
+
