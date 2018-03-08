@@ -2,14 +2,12 @@ html {
     min-width: 1150px;
 }
 
-
 body {
     font-size: 12px;
     font-family: "Microsoft yahei";
     color: #434343;
     background: transparent;
 }
-
 
 a {
     text-decoration: none;
@@ -111,13 +109,13 @@ li {
                             font-size: 16px;
                             color: #434343;
                             display: block;
-                            width: 178px;
+                            width: 215px;
                             text-align: left;
                         }
                     }
                     li.item:first-child {
                         a {
-                            width: 140px;
+                            width: 170px;
                         }
                     }
                     li.item:last-child {
@@ -139,7 +137,7 @@ li {
         .content-top {
             box-sizing: border-box;
             height: 392px;
-            background: url(../images/index/banner.png) no-repeat; // background-size: 100% 100%;
+            background: url(../images/index/banner.jpg) no-repeat; // background-size: 100% 100%;
             background-position: center center;
             .mycontainer {
                 position: relative;
@@ -308,6 +306,7 @@ li {
                     margin: 0;
                     padding-top: 80px*0.8;
                     padding-bottom: 30px*0.8;
+                    width: 730px;
                 }
                 .paragraph {
                     width: 730px;
@@ -503,7 +502,8 @@ li {
 .page-ui-join {
     section {
         .content-top {
-            background-image: url(../images/join/banner.png);
+            background-image: url(../images/join/banner.jpg);
+            // background-size: 100% 100%;
         }
         >.mycontainer.job {
             .job-title {
@@ -512,6 +512,12 @@ li {
             }
             .job-content {
                 margin-bottom: 50px;
+                h3{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 20px;
+                }
             }
         }
     }
@@ -540,6 +546,8 @@ li {
         background-color: #fff; // height: 492px;
         border-radius: 10px;
         overflow: hidden;
+        position: relative;
+        z-index: 1000;
         .loginBox-top {
             // padding: 40px 0;
             padding: 0 15px;
@@ -652,9 +660,10 @@ li {
     .page-ui-common.page-ui-login {
         .loginBox {
             .loginBox-top {
-                div.c-title,div.e-title{
-                    font-size:1.5rem;
-                    height:50px;
+                div.c-title,
+                div.e-title {
+                    font-size: 1.5rem;
+                    height: 50px;
                 }
             }
         }

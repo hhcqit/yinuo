@@ -101,11 +101,11 @@ li {
   font-size: 16px;
   color: #434343;
   display: block;
-  width: 178px;
+  width: 215px;
   text-align: left;
 }
 .page-ui-common header .logoArea .p-navbar ul li.item:first-child a {
-  width: 140px;
+  width: 170px;
 }
 .page-ui-common header .logoArea .p-navbar ul li.item:last-child a {
   text-align: right;
@@ -117,7 +117,7 @@ li {
 .page-ui-common section .content-top {
   box-sizing: border-box;
   height: 392px;
-  background: url(../images/index/banner.png) no-repeat;
+  background: url(../images/index/banner.jpg) no-repeat;
   background-position: center center;
 }
 .page-ui-common section .content-top .mycontainer {
@@ -275,6 +275,7 @@ li {
   margin: 0;
   padding-top: 64px;
   padding-bottom: 24px;
+  width: 730px;
 }
 .page-ui-index section .content-phone .mycontainer .paragraph {
   width: 730px;
@@ -449,7 +450,7 @@ li {
   margin: 20px 0;
 }
 .page-ui-join section .content-top {
-  background-image: url(../images/join/banner.png);
+  background-image: url(../images/join/banner.jpg);
 }
 .page-ui-join section > .mycontainer.job .job-title {
   text-align: center;
@@ -457,6 +458,12 @@ li {
 }
 .page-ui-join section > .mycontainer.job .job-content {
   margin-bottom: 50px;
+}
+.page-ui-join section > .mycontainer.job .job-content h3 {
+  font-size: 28px;
+}
+.page-ui-join section > .mycontainer.job .job-content p {
+  font-size: 20px;
 }
 /*
     *login.html
@@ -480,6 +487,8 @@ li {
   background-color: #fff;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
+  z-index: 1000;
 }
 .page-ui-common.page-ui-login .loginBox .loginBox-top {
   padding: 0 15px;

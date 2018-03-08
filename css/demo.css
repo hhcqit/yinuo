@@ -19,6 +19,20 @@ li {
 .rt {
   float: right;
 }
+#erweima {
+  width: 10%;
+  min-width: 120px;
+  position: fixed;
+  right: 10px;
+  bottom: 100px;
+  text-align: center;
+}
+#erweima strong {
+  color: #0091be;
+}
+#erweima img {
+  width: 100%;
+}
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
@@ -101,7 +115,7 @@ li {
 .page-ui-common section .content-top {
   box-sizing: border-box;
   height: 392px;
-  background: url(../images/index/banner.png) no-repeat;
+  background: url(../images/index/banner.jpg) no-repeat;
   background-position: center center;
 }
 .page-ui-index section .content-top .container {
@@ -389,6 +403,137 @@ li {
   color: #28292a;
   margin: 20px 0;
 }
+.page-ui-join section .content-top {
+  background-image: url(../images/join/banner.jpg);
+}
+.page-ui-join section .mdShow {
+  display: none;
+}
+.page-ui-join section > .container.job .job-title {
+  text-align: center;
+  padding: 20px 0;
+}
+.page-ui-join section > .container.job .job-content {
+  margin-bottom: 50px;
+}
+/*
+    *login.html
+    */
+.page-ui-common.page-ui-login {
+  min-width: initial;
+  background: #97d9ed;
+  background-image: url(../images/login/bottom.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  min-height: 100%;
+  min-width: 350px;
+  height: 800px;
+}
+.page-ui-common.page-ui-login .loginBox {
+  width: 468px;
+  max-width: 90%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1000;
+}
+.page-ui-common.page-ui-login .loginBox .loginBox-top {
+  padding: 0 15px;
+  background: #30b3db;
+}
+.page-ui-common.page-ui-login .loginBox .loginBox-top .row .col-xs-4 {
+  height: 150px;
+  line-height: 150px;
+  text-align: right;
+}
+.page-ui-common.page-ui-login .loginBox .loginBox-top .row .col-xs-8 {
+  height: 150px;
+  padding: 25px 0;
+}
+.page-ui-common.page-ui-login .loginBox .loginBox-top .c-title {
+  font-size: 36px;
+  color: #fff;
+  text-align: left;
+}
+.page-ui-common.page-ui-login .loginBox .loginBox-top .e-title {
+  font-size: 22px;
+  text-align: left;
+  color: #fff;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child {
+  padding: 10%;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child form .form-group input {
+  padding-left: 34px;
+  font-size: 18px;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child form .form-group > span {
+  left: 0;
+  color: #cccccc;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child form .form-group.code {
+  line-height: 34px;
+  color: #cccccc;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child form .form-group.code a {
+  color: #30b3db;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child form #loginBtn {
+  background: #2fb3da;
+  border: 0;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child form #kaptchaImage {
+  width: 80px;
+  height: 32px;
+}
+.page-ui-common.page-ui-login body {
+  position: relative;
+  padding-top: 100px;
+  overflow: hidden;
+}
+.page-ui-common.page-ui-login body > .circle {
+  background: url(../images/login/circluar.png) no-repeat;
+  background-size: 100% 100%;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+}
+.page-ui-common.page-ui-login body .circle.circle-lg {
+  width: 120px;
+  height: 120px;
+}
+.page-ui-common.page-ui-login body .circle.circle-sm {
+  width: 65px;
+  height: 65px;
+}
+.page-ui-common.page-ui-login body #circle1 {
+  left: 50px;
+  top: 280px;
+}
+.page-ui-common.page-ui-login body #circle2 {
+  left: 100px;
+  top: 495px;
+}
+.page-ui-common.page-ui-login body #circle3 {
+  left: 394px;
+  top: 690px;
+}
+.page-ui-common.page-ui-login body #circle4 {
+  right: 350px;
+  top: 680px;
+}
+.page-ui-common.page-ui-login body #circle5 {
+  right: 150px;
+  top: 280px;
+}
+.page-ui-common.page-ui-login body #circle6 {
+  right: 250px;
+  top: 480px;
+}
 @media (max-width: 768px) {
   .page-ui-common footer .connect p {
     font-size: 12px;
@@ -431,5 +576,25 @@ li {
     color: white;
     height: 41px;
     line-height: 42px;
+  }
+  .page-ui-join section .content-top {
+    background-image: url(../images/join/768_392ZP.jpg);
+    background-size: 100% 100%;
+  }
+  .page-ui-join section .lgShow {
+    display: none;
+  }
+  .page-ui-join section .mdShow {
+    display: block;
+  }
+  .page-ui-join section .container.job .job-title img {
+    width: 180px;
+  }
+}
+@media (max-width: 400px) {
+  .page-ui-common.page-ui-login .loginBox .loginBox-top div.c-title,
+  .page-ui-common.page-ui-login .loginBox .loginBox-top div.e-title {
+    font-size: 1.5rem;
+    height: 50px;
   }
 }

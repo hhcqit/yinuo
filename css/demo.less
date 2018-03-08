@@ -24,6 +24,21 @@ li {
     float: right;
 }
 
+#erweima {
+    width: 10%;
+    min-width: 120px;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    text-align: center;
+    strong {
+        color: #0091be;
+    }
+    img {
+        width: 100%;
+    }
+}
+
 .nav>li>a:hover,
 .nav>li>a:focus {
     text-decoration: none;
@@ -117,7 +132,7 @@ li {
         .content-top {
             box-sizing: border-box;
             height: 392px;
-            background: url(../images/index/banner.png) no-repeat; // background-size: 100% 100%;
+            background: url(../images/index/banner.jpg) no-repeat; // background-size: 100% 100%;
             background-position: center center;
         }
     }
@@ -431,6 +446,159 @@ li {
     }
 }
 
+.page-ui-join {
+    section {
+        .content-top {
+            background-image: url(../images/join/banner.jpg);
+        }
+        .mdShow{
+            display: none;
+        }
+        >.container.job {
+            .job-title {
+                text-align: center;
+                padding: 20px 0;
+            }
+            .job-content {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+
+/*
+    *login.html
+    */
+
+.page-ui-common.page-ui-login {
+    min-width: initial;
+    background: #97d9ed;
+    background-image: url(../images/login/bottom.png);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    min-height: 100%;
+    min-width: 350px;
+    height: 800px;
+    .loginBox {
+        width: 468px;
+        max-width: 90%;
+        box-sizing: border-box;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #fff; // height: 492px;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1000;
+        .loginBox-top {
+            // padding: 40px 0;
+            padding: 0 15px;
+            background: #30b3db;
+            .row {
+                .col-xs-4 {
+                    height: 150px;
+                    line-height: 150px;
+                    text-align: right;
+                }
+                .col-xs-8 {
+                    height: 150px;
+                    padding: 25px 0;
+                }
+            }
+            .c-title {
+                font-size: 36px;
+                color: #fff;
+                text-align: left;
+            }
+            .e-title {
+                font-size: 22px;
+                text-align: left;
+                color: #fff;
+            }
+        }
+        >div:last-child {
+            padding: 10%;
+            form {
+                .form-group {
+                    input {
+                        padding-left: 34px;
+                        font-size: 18px;
+                    }
+                    >span {
+                        left: 0;
+                        color: #cccccc;
+                    }
+                }
+                .form-group.code {
+                    // height: 34px;
+                    line-height: 34px;
+                    color: #cccccc;
+                    a {
+                        color: #30b3db;
+                    }
+                }
+                #vcode {
+                    // width: 150px;
+                    // float: left;
+                }
+                #loginBtn {
+                    background: #2fb3da;
+                    border: 0;
+                }
+                #kaptchaImage {
+                    width: 80px;
+                    height: 32px;
+                }
+            }
+        }
+    }
+    body {
+        position: relative;
+        padding-top: 100px;
+        overflow: hidden;
+        >.circle {
+            background: url(../images/login/circluar.png) no-repeat;
+            background-size: 100% 100%;
+            width: 90px;
+            height: 90px;
+            position: absolute;
+        }
+        .circle.circle-lg {
+            width: 120px;
+            height: 120px;
+        }
+        .circle.circle-sm {
+            width: 65px;
+            height: 65px;
+        }
+        #circle1 {
+            left: 50px;
+            top: 280px;
+        }
+        #circle2 {
+            left: 100px;
+            top: 495px;
+        }
+        #circle3 {
+            left: 394px;
+            top: 690px;
+        }
+        #circle4 {
+            right: 350px;
+            top: 680px;
+        }
+        #circle5 {
+            right: 150px;
+            top: 280px;
+        }
+        #circle6 {
+            right: 250px;
+            top: 480px;
+        }
+    }
+}
+
 @media (max-width:768px) {
     .page-ui-common {
         footer {
@@ -455,15 +623,15 @@ li {
             }
             .content-top-phone {
                 display: block!important;
-                .title{
-                    background:#0091bf;
+                .title {
+                    background: #0091bf;
                     text-align: center;
                     font-size: 22px;
                     color: #fff;
                     padding: 15px 0;
                 }
-                .items{
-                    padding:15px;
+                .items {
+                    padding: 15px;
                     .item {
                         color: white;
                         font-size: 16px;
@@ -481,7 +649,42 @@ li {
                         }
                     }
                 }
-                
+            }
+        }
+    }
+    .page-ui-join {
+        section {
+            .content-top {
+                background-image: url(../images/join/768_392ZP.jpg);
+                background-size: 100% 100%;
+            }
+            .lgShow{
+                display: none;
+            }
+            .mdShow{
+                display: block;
+            }
+            .container.job {
+                .job-title {
+                    img{
+                        width:180px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:400px) {
+    .page-ui-common.page-ui-login {
+        .loginBox {
+            .loginBox-top {
+                div.c-title,
+                div.e-title {
+                    font-size: 1.5rem;
+                    height: 50px;
+                }
             }
         }
     }
