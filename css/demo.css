@@ -78,12 +78,17 @@ li {
   margin: 10px 0;
   overflow: hidden;
 }
+.page-ui-common header #bs-navbar ul li.item {
+  padding-left: 0;
+  padding-right: 0;
+}
 .page-ui-common header #bs-navbar ul li.item a {
   font-size: 16px;
   color: #434343;
   display: block;
   text-align: left;
-  width: 144px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .page-ui-common header #bs-navbar ul li.item.active a {
   color: #0091be;
@@ -194,21 +199,14 @@ li {
   color: #434343;
   margin: 10px 0;
 }
-.page-ui-index section #virtuals1,
-.page-ui-index section #virtuals2 {
-  display: flex;
-  margin: 55px 0;
+.page-ui-index section #virtuals1 {
+  padding: 80px 0;
 }
-.page-ui-index section #virtuals1 li,
-.page-ui-index section #virtuals2 li {
-  flex: 1;
+.page-ui-index section #virtuals1 > li > div {
   text-align: center;
-  font-size: 17.6px;
-  color: #434343;
-  height: 140px;
+  height: 170px;
 }
-.page-ui-index section #virtuals1 li img,
-.page-ui-index section #virtuals2 li img {
+.page-ui-index section #virtuals1 > li > div > img {
   width: 72px;
 }
 .page-ui-index section .content-phone {
@@ -404,7 +402,7 @@ li {
   margin: 20px 0;
 }
 .page-ui-join section .content-top {
-  background-image: url(../images/join/banner.jpg);
+  background-image: url(../images/join/banner.png);
 }
 .page-ui-join section .mdShow {
   display: none;
@@ -415,6 +413,12 @@ li {
 }
 .page-ui-join section > .container.job .job-content {
   margin-bottom: 50px;
+}
+.page-ui-join section > .container.job .job-content h3 {
+  font-size: 28px;
+}
+.page-ui-join section > .container.job .job-content p {
+  font-size: 20px;
 }
 /*
     *login.html
@@ -567,7 +571,7 @@ li {
     background: #00bea1;
     height: 42px;
     line-height: 42px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 3px;
   }
   .page-ui-index section .content-top-phone .items .item a {
@@ -577,9 +581,16 @@ li {
     height: 41px;
     line-height: 42px;
   }
+  .page-ui-index section .content-top-phone .items .item a:hover {
+    text-decoration: none;
+  }
+  .page-ui-index section .content-top-phone .items .item:hover {
+    background: #14cdb7;
+  }
   .page-ui-join section .content-top {
     background-image: url(../images/join/768_392ZP.jpg);
     background-size: 100% 100%;
+    display: none;
   }
   .page-ui-join section .lgShow {
     display: none;
@@ -589,6 +600,15 @@ li {
   }
   .page-ui-join section .container.job .job-title img {
     width: 180px;
+  }
+  .page-ui-join section .container.job .job-content {
+    margin-bottom: 50px;
+  }
+  .page-ui-join section .container.job .job-content h3 {
+    font-size: 20px;
+  }
+  .page-ui-join section .container.job .job-content p {
+    font-size: 16px;
   }
 }
 @media (max-width: 400px) {

@@ -1,0 +1,688 @@
+body {
+  font-size: 12px;
+  font-family: "Microsoft yahei";
+  color: #434343;
+  background: transparent;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}
+#erweima {
+  width: 10%;
+  min-width: 120px;
+  position: fixed;
+  right: 10px;
+  bottom: 100px;
+  text-align: center;
+}
+#erweima strong {
+  color: #0091be;
+}
+#erweima img {
+  width: 100%;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .page-ui-index section .content-top {
+    display: none;
+  }
+  .page-ui-index section .content-top-phone {
+    display: block!important;
+  }
+  .page-ui-index section .content-top-phone .title {
+    background: #0091bf;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    padding: 15px 0;
+  }
+  .page-ui-index section .content-top-phone .items {
+    padding: 15px;
+  }
+  .page-ui-index section .content-top-phone .items .item {
+    color: white;
+    font-size: 16px;
+    background: #00bea1;
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+  .page-ui-index section .content-top-phone .items .item a {
+    box-sizing: border-box;
+    display: block;
+    color: white;
+    height: 41px;
+    line-height: 42px;
+  }
+  .page-ui-index section .content-top-phone .items .item a:hover {
+    text-decoration: none;
+  }
+  .page-ui-index section .content-top-phone .items .item:hover {
+    background: #14cdb7;
+  }
+  .page-ui-index section > .container > h1 {
+    text-align: center;
+    font-size: 36.8px;
+    color: #0091be;
+    font-weight: 400;
+    margin-top: 55px;
+  }
+  .page-ui-index section > .container > p {
+    text-align: center;
+    font-size: 22.4px;
+    color: #434343;
+    margin: 10px 0;
+  }
+  .page-ui-index section #virtuals1 {
+    padding: 80px 0;
+  }
+  .page-ui-index section #virtuals1 > li > div {
+    text-align: center;
+    height: 170px;
+    line-height: 2.5em;
+    font-size: 16px;
+  }
+  .page-ui-index section #virtuals1 > li > div > img {
+    width: 72px;
+  }
+  .page-ui-index section .content-phone {
+    background: #f1f1f1;
+    box-sizing: border-box;
+  }
+  .page-ui-index section .content-phone .container {
+    position: relative;
+    background-image: url(../../images/index/hands.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 7.80487805rem 10.14634146rem;
+  }
+  .page-ui-index section .content-phone .container h2 {
+    font-size: 1.14rem;
+    color: #0091be;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 1.95121951rem;
+    padding-bottom: 0.73170732rem;
+  }
+  .page-ui-index section .content-phone .container .paragraph p {
+    text-align: center;
+    color: #434343;
+    font-size: 0.53658537rem;
+    line-height: 1.4rem;
+    margin: 0;
+  }
+  .page-ui-index section .content-phone .container .paragraph h3 {
+    color: #333;
+    text-align: center;
+    font-size: 0.68292683rem;
+  }
+  .page-ui-index section .content-phone .container .paragraph h3 strong {
+    color: #0091be;
+  }
+  .page-ui-index section #jianyan > h2 {
+    font-size: 0.84228451rem;
+    color: #0091be;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 1.37328997rem;
+    padding-bottom: 1.37328997rem;
+    text-align: center;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div {
+    margin-bottom: 0.45776332rem;
+    padding-left: 0.91552665rem;
+    background: #f1f1f1;
+    height: 4.28921569rem;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-8 .title {
+    font-size: 0.58593705rem;
+    color: #333;
+    margin: 0.22888166rem 0;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-8 .cont {
+    margin: 0.22888166rem 0;
+    font-size: 0.40283172rem;
+    color: #666;
+    line-height: 2em;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-4 {
+    padding-top: 0.6097561rem;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-4 img {
+    max-width: 100%;
+    width: 3.06372549rem;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div {
+    background: #2fb3da;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div > a .row {
+    color: #fff;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div > a .row .col-xs-8 .title {
+    color: #fff;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div > a .row .col-xs-8 .cont {
+    color: #fff;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .page-ui-index section .content-top .container {
+    position: relative;
+  }
+  .page-ui-index section .content-top .container .sanjiao1,
+  .page-ui-index section .content-top .container .sanjiao2 {
+    position: absolute;
+    top: -3px;
+    width: 35px;
+    left: 208px;
+  }
+  .page-ui-index section .content-top .container .sanjiao2 {
+    top: 360px;
+    width: 35px;
+    left: 208px;
+    transform: rotate(90deg);
+  }
+  .page-ui-index section .content-top .container .topdes {
+    margin: 140px 0 0 60px;
+  }
+  .page-ui-index section .content-top .container .topdes p {
+    font-size: 30px;
+    font-family: "Times New Roman";
+    color: #fff;
+  }
+  .page-ui-index section .content-top .container .content-list {
+    width: 195px;
+  }
+  .page-ui-index section .content-top .container .content-list li.content-list-title {
+    height: 56px;
+    background: #0091bf!important;
+    line-height: 56px;
+    text-align: center;
+  }
+  .page-ui-index section .content-top .container .content-list li {
+    color: white;
+    font-size: 16px;
+    background: #00bea1;
+    height: 42px;
+    line-height: 42px;
+  }
+  .page-ui-index section .content-top .container .content-list li a {
+    box-sizing: border-box;
+    display: block;
+    padding-left: 42px;
+    color: white;
+    height: 41px;
+    line-height: 42px;
+    border-bottom: 1px solid #fff;
+  }
+  .page-ui-index section .content-top .container .content-list li a img {
+    position: relative;
+    top: 4px;
+    float: left;
+  }
+  .page-ui-index section .content-top .container .content-list li:hover {
+    background: #14cdb7;
+  }
+  .page-ui-index section .content-top .container .content-list li:last-child a {
+    border-bottom: none;
+  }
+  .page-ui-index section .content-top-phone {
+    display: none;
+  }
+  .page-ui-index section > .container > h1 {
+    text-align: center;
+    font-size: 36.8px;
+    color: #0091be;
+    font-weight: 400;
+    margin-top: 55px;
+  }
+  .page-ui-index section > .container > p {
+    text-align: center;
+    font-size: 22.4px;
+    color: #434343;
+    margin: 10px 0;
+  }
+  .page-ui-index section #virtuals1 {
+    padding: 80px 0;
+  }
+  .page-ui-index section #virtuals1 > li > div {
+    text-align: center;
+    height: 170px;
+    line-height: 2.5em;
+    font-size: 16px;
+  }
+  .page-ui-index section #virtuals1 > li > div > img {
+    width: 72px;
+  }
+  .page-ui-index section .content-phone {
+    background: #f1f1f1;
+    height: 464px;
+    box-sizing: border-box;
+  }
+  .page-ui-index section .content-phone .container {
+    height: 464px;
+    position: relative;
+    background-image: url(../../images/index/hands.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  .page-ui-index section .content-phone .container h2 {
+    font-size: 36.8px;
+    color: #0091be;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 64px;
+    padding-bottom: 24px;
+  }
+  .page-ui-index section .content-phone .container .paragraph p {
+    text-align: center;
+    color: #434343;
+    font-size: 17.6px;
+    line-height: 2em;
+    margin: 0;
+  }
+  .page-ui-index section .content-phone .container .paragraph h3 {
+    color: #333;
+    text-align: center;
+    font-size: 22.4px;
+  }
+  .page-ui-index section .content-phone .container .paragraph h3 strong {
+    color: #0091be;
+  }
+  .page-ui-index section #jianyan > h2 {
+    font-size: 36.8px;
+    color: #0091be;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div {
+    margin-bottom: 20px;
+    padding: 0 40px;
+    background: #f1f1f1;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-8 .title {
+    font-size: 25.6px;
+    color: #333;
+    margin: 10px 0;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-8 .cont {
+    margin: 10px 0;
+    font-size: 0.34529488rem;
+    color: #666;
+    line-height: 0.5rem;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-4 {
+    padding-top: 20px;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-4 img {
+    max-width: 100%;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div {
+    background: #2fb3da;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div > a .row {
+    color: #fff;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div > a .row .col-xs-8 .title {
+    color: #fff;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div > a .row .col-xs-8 .cont {
+    color: #fff;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .page-ui-index section .content-top .container {
+    position: relative;
+  }
+  .page-ui-index section .content-top .container .sanjiao1,
+  .page-ui-index section .content-top .container .sanjiao2 {
+    position: absolute;
+    top: -3px;
+    width: 35px;
+    left: 208px;
+  }
+  .page-ui-index section .content-top .container .sanjiao2 {
+    top: 360px;
+    width: 35px;
+    left: 208px;
+    transform: rotate(90deg);
+  }
+  .page-ui-index section .content-top .container .topdes {
+    margin: 140px 0 0 60px;
+  }
+  .page-ui-index section .content-top .container .topdes p {
+    font-size: 30px;
+    font-family: "Times New Roman";
+    color: #fff;
+  }
+  .page-ui-index section .content-top .container .content-list {
+    width: 195px;
+  }
+  .page-ui-index section .content-top .container .content-list li.content-list-title {
+    height: 56px;
+    background: #0091bf!important;
+    line-height: 56px;
+    text-align: center;
+  }
+  .page-ui-index section .content-top .container .content-list li {
+    color: white;
+    font-size: 16px;
+    background: #00bea1;
+    height: 42px;
+    line-height: 42px;
+  }
+  .page-ui-index section .content-top .container .content-list li a {
+    box-sizing: border-box;
+    display: block;
+    padding-left: 42px;
+    color: white;
+    height: 41px;
+    line-height: 42px;
+    border-bottom: 1px solid #fff;
+  }
+  .page-ui-index section .content-top .container .content-list li a img {
+    position: relative;
+    top: 4px;
+    float: left;
+  }
+  .page-ui-index section .content-top .container .content-list li:hover {
+    background: #14cdb7;
+  }
+  .page-ui-index section .content-top .container .content-list li:last-child a {
+    border-bottom: none;
+  }
+  .page-ui-index section .content-top-phone {
+    display: none;
+  }
+  .page-ui-index section > .container > h1 {
+    text-align: center;
+    font-size: 36.8px;
+    color: #0091be;
+    font-weight: 400;
+    margin-top: 55px;
+  }
+  .page-ui-index section > .container > p {
+    text-align: center;
+    font-size: 22.4px;
+    color: #434343;
+    margin: 10px 0;
+  }
+  .page-ui-index section #virtuals1 {
+    padding: 80px 0;
+  }
+  .page-ui-index section #virtuals1 > li > div {
+    text-align: center;
+    height: 170px;
+    line-height: 2.5em;
+    font-size: 16px;
+  }
+  .page-ui-index section #virtuals1 > li > div > img {
+    width: 72px;
+  }
+  .page-ui-index section .content-phone {
+    background: #f1f1f1;
+    height: 464px;
+    box-sizing: border-box;
+  }
+  .page-ui-index section .content-phone .container {
+    height: 464px;
+    position: relative;
+    background-image: url(../../images/index/hands.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  .page-ui-index section .content-phone .container h2 {
+    font-size: 36.8px;
+    color: #0091be;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 64px;
+    padding-bottom: 24px;
+  }
+  .page-ui-index section .content-phone .container .paragraph p {
+    text-align: center;
+    color: #434343;
+    font-size: 17.6px;
+    line-height: 2em;
+    margin: 0;
+  }
+  .page-ui-index section .content-phone .container .paragraph h3 {
+    color: #333;
+    text-align: center;
+    font-size: 22.4px;
+  }
+  .page-ui-index section .content-phone .container .paragraph h3 strong {
+    color: #0091be;
+  }
+  .page-ui-index section #jianyan > h2 {
+    font-size: 36.8px;
+    color: #0091be;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div {
+    margin-bottom: 20px;
+    padding: 0 40px;
+    background: #f1f1f1;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-8 .title {
+    font-size: 25.6px;
+    color: #333;
+    margin: 10px 0;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-8 .cont {
+    margin: 10px 0;
+    font-size: 17.6px;
+    color: #666;
+    line-height: 2em;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-4 {
+    padding-top: 20px;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-4 img {
+    max-width: 100%;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div {
+    background: #2fb3da;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div > a .row {
+    color: #fff;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div > a .row .col-xs-8 .title {
+    color: #fff;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div > a .row .col-xs-8 .cont {
+    color: #fff;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-ui-index section .content-top .container {
+    position: relative;
+  }
+  .page-ui-index section .content-top .container .sanjiao1,
+  .page-ui-index section .content-top .container .sanjiao2 {
+    position: absolute;
+    top: -3px;
+    width: 35px;
+    left: 208px;
+  }
+  .page-ui-index section .content-top .container .sanjiao2 {
+    top: 360px;
+    width: 35px;
+    left: 208px;
+    transform: rotate(90deg);
+  }
+  .page-ui-index section .content-top .container .topdes {
+    margin: 140px 0 0 60px;
+  }
+  .page-ui-index section .content-top .container .topdes p {
+    font-size: 30px;
+    font-family: "Times New Roman";
+    color: #fff;
+  }
+  .page-ui-index section .content-top .container .content-list {
+    width: 195px;
+  }
+  .page-ui-index section .content-top .container .content-list li.content-list-title {
+    height: 56px;
+    background: #0091bf!important;
+    line-height: 56px;
+    text-align: center;
+  }
+  .page-ui-index section .content-top .container .content-list li {
+    color: white;
+    font-size: 16px;
+    background: #00bea1;
+    height: 42px;
+    line-height: 42px;
+  }
+  .page-ui-index section .content-top .container .content-list li a {
+    box-sizing: border-box;
+    display: block;
+    padding-left: 42px;
+    color: white;
+    height: 41px;
+    line-height: 42px;
+    border-bottom: 1px solid #fff;
+  }
+  .page-ui-index section .content-top .container .content-list li a img {
+    position: relative;
+    top: 4px;
+    float: left;
+  }
+  .page-ui-index section .content-top .container .content-list li:hover {
+    background: #14cdb7;
+  }
+  .page-ui-index section .content-top .container .content-list li:last-child a {
+    border-bottom: none;
+  }
+  .page-ui-index section .content-top-phone {
+    display: none;
+  }
+  .page-ui-index section > .container > h1 {
+    text-align: center;
+    font-size: 36.8px;
+    color: #0091be;
+    font-weight: 400;
+    margin-top: 55px;
+  }
+  .page-ui-index section > .container > p {
+    text-align: center;
+    font-size: 22.4px;
+    color: #434343;
+    margin: 10px 0;
+  }
+  .page-ui-index section #virtuals1 {
+    padding: 80px 0;
+  }
+  .page-ui-index section #virtuals1 > li > div {
+    text-align: center;
+    height: 170px;
+    line-height: 2.5em;
+    font-size: 16px;
+  }
+  .page-ui-index section #virtuals1 > li > div > img {
+    width: 72px;
+  }
+  .page-ui-index section .content-phone {
+    background: #f1f1f1;
+    height: 464px;
+    box-sizing: border-box;
+  }
+  .page-ui-index section .content-phone .container {
+    height: 464px;
+    position: relative;
+    background-image: url(../../images/index/hands.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  .page-ui-index section .content-phone .container h2 {
+    font-size: 36.8px;
+    color: #0091be;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 64px;
+    padding-bottom: 24px;
+  }
+  .page-ui-index section .content-phone .container .paragraph p {
+    text-align: center;
+    color: #434343;
+    font-size: 17.6px;
+    line-height: 2em;
+    margin: 0;
+  }
+  .page-ui-index section .content-phone .container .paragraph h3 {
+    color: #333;
+    text-align: center;
+    font-size: 22.4px;
+  }
+  .page-ui-index section .content-phone .container .paragraph h3 strong {
+    color: #0091be;
+  }
+  .page-ui-index section #jianyan > h2 {
+    font-size: 36.8px;
+    color: #0091be;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div {
+    margin-bottom: 20px;
+    padding: 0 40px;
+    background: #f1f1f1;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-8 .title {
+    font-size: 25.6px;
+    color: #333;
+    margin: 10px 0;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-8 .cont {
+    margin: 10px 0;
+    font-size: 17.6px;
+    color: #666;
+    line-height: 2em;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-4 {
+    padding-top: 20px;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6 > div > a .row .col-xs-4 img {
+    max-width: 100%;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div {
+    background: #2fb3da;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div > a .row {
+    color: #fff;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div > a .row .col-xs-8 .title {
+    color: #fff;
+  }
+  .page-ui-index section #jianyan > .row > .col-xs-6.active > div > a .row .col-xs-8 .cont {
+    color: #fff;
+  }
+}

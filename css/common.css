@@ -1,0 +1,209 @@
+body {
+  font-size: 12px;
+  font-family: "Microsoft yahei";
+  color: #434343;
+  background: transparent;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}
+#erweima {
+  width: 10%;
+  min-width: 120px;
+  position: fixed;
+  right: 10px;
+  bottom: 100px;
+  text-align: center;
+}
+#erweima strong {
+  color: #0091be;
+}
+#erweima img {
+  width: 100%;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .page-ui-common header .navTop {
+    height: 32px;
+    background: #30b3db;
+  }
+  .page-ui-common header .navTop .navTopRight {
+    float: right;
+    line-height: 32px;
+    padding-right: 15px;
+  }
+  .page-ui-common header .navTop .navTopRight a {
+    color: white;
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  .page-ui-common header .navTop .navTopRight a:hover {
+    color: red;
+  }
+  .page-ui-common header .logodiv {
+    margin-top: 40px;
+  }
+  .page-ui-common header .input-group-addon {
+    background: #009ccc;
+    color: #fff;
+  }
+  .page-ui-common header .input-group-addon:hover {
+    cursor: pointer;
+  }
+  .page-ui-common header .navbar-toggle {
+    border-color: #ddd;
+  }
+  .page-ui-common header .navbar-toggle .icon-bar {
+    background-color: #888;
+  }
+  .page-ui-common header #bs-navbar {
+    padding: 0;
+  }
+  .page-ui-common header #bs-navbar ul {
+    margin: 10px 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+  .page-ui-common header #bs-navbar ul li.item {
+    font-size: 16px;
+  }
+  .page-ui-common header #bs-navbar ul li.item > a {
+    color: #434343;
+    text-decoration: none;
+  }
+  .page-ui-common header #bs-navbar ul li.item.active a {
+    color: #0091be;
+  }
+  .page-ui-common footer .connect {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: #30b3db;
+    text-align: center;
+    padding: 28.8px 0;
+  }
+  .page-ui-common footer .connect p {
+    color: #fff;
+    font-size: 19.2px;
+    margin: 14px 0;
+  }
+  .page-ui-common footer .connect p a {
+    color: #fff;
+  }
+  .page-ui-common footer .connect p a:hover {
+    text-decoration: underline;
+  }
+  .page-ui-common footer > p {
+    text-align: center;
+    font-size: 14.4px;
+    color: #666;
+    margin: 4px 0;
+  }
+  .page-ui-common section .content-top {
+    box-sizing: border-box;
+    height: 392px;
+    background: url(../images/index/banner.jpg) no-repeat;
+    background-position: center center;
+  }
+}
+@media (max-width: 768px) {
+  .page-ui-common header .navTop {
+    height: 32px;
+    background: #30b3db;
+  }
+  .page-ui-common header .navTop .navTopRight {
+    float: right;
+    line-height: 32px;
+    padding-right: 15px;
+  }
+  .page-ui-common header .navTop .navTopRight a {
+    color: white;
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  .page-ui-common header .navTop .navTopRight a:hover {
+    color: red;
+  }
+  .page-ui-common header .logodiv {
+    margin-top: 40px;
+  }
+  .page-ui-common header .input-group-addon {
+    background: #009ccc;
+    color: #fff;
+  }
+  .page-ui-common header .input-group-addon:hover {
+    cursor: pointer;
+  }
+  .page-ui-common header .navbar-toggle {
+    border-color: #ddd;
+  }
+  .page-ui-common header .navbar-toggle .icon-bar {
+    background-color: #888;
+  }
+  .page-ui-common header #bs-navbar ul {
+    margin: 10px 0;
+    overflow: hidden;
+  }
+  .page-ui-common header #bs-navbar ul li.item {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .page-ui-common header #bs-navbar ul li.item > a {
+    color: #434343;
+    text-decoration: none;
+  }
+  .page-ui-common header #bs-navbar ul li.item.active a {
+    color: #0091be;
+  }
+  .page-ui-common footer .connect {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: #30b3db;
+    text-align: center;
+    padding: 28.8px 0;
+  }
+  .page-ui-common footer .connect p {
+    color: #fff;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 14px 0;
+  }
+  .page-ui-common footer .connect p a {
+    color: #fff;
+  }
+  .page-ui-common footer .connect p a:hover {
+    text-decoration: underline;
+  }
+  .page-ui-common footer > p {
+    text-align: center;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #666;
+    margin: 4px 0;
+  }
+  .page-ui-common section .content-top {
+    box-sizing: border-box;
+    height: 392px;
+    background: url(../images/index/banner.jpg) no-repeat;
+    background-position: center center;
+  }
+}

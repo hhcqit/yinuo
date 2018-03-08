@@ -201,6 +201,9 @@ li {
     }
 }
 
+/*
+*index.html
+*/
 .page-ui-index {
     section {
         .content-top {
@@ -499,10 +502,13 @@ li {
     }
 }
 
+/*
+*join.html
+*/
 .page-ui-join {
     section {
         .content-top {
-            background-image: url(../images/join/banner.jpg);
+            background-image: url(../images/join/banner.png);
             // background-size: 100% 100%;
         }
         >.mycontainer.job {
@@ -525,10 +531,31 @@ li {
 
 
 /*
-    *login.html
-    */
+*login.html
+*/
 
 .page-ui-common.page-ui-login {
+    section {
+        .content-top {
+            background-image: url(../images/join/banner.jpg);
+            // background-size: 100% 100%;
+        }
+        >.mycontainer.job {
+            .job-title {
+                text-align: center;
+                padding: 20px 0;
+            }
+            .job-content {
+                margin-bottom: 50px;
+                h3{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
     min-width: initial;
     background: #97d9ed;
     background-image: url(../images/login/bottom.png);
