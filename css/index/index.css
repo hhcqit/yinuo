@@ -251,10 +251,12 @@ a:focus {
   }
   .page-ui-index section .content-phone .container {
     position: relative;
-    background-image: url(../../images/index/hands.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: 7.80487805rem 10.14634146rem;
+    background-size: 16px;
+  }
+  .page-ui-index section .content-phone .container .col-xs-9.teshu {
+    width: 100%;
   }
   .page-ui-index section .content-phone .container h2 {
     font-size: 1rem;
@@ -267,8 +269,8 @@ a:focus {
   .page-ui-index section .content-phone .container .paragraph p {
     text-align: center;
     color: #434343;
-    font-size: 0.53658537rem;
-    line-height: 1.4rem;
+    font-size: 16px;
+    line-height: 30px;
     margin: 0;
   }
   .page-ui-index section .content-phone .container .paragraph h3 {
@@ -403,12 +405,12 @@ a:focus {
   .page-ui-index section .content-phone .container {
     height: 464px;
     position: relative;
-    background-image: url(../../images/index/hands.png);
     background-repeat: no-repeat;
     background-position: right bottom;
   }
-  .page-ui-index section .content-phone .container > .row .col-xs-8 {
+  .page-ui-index section .content-phone .container > .row .col-xs-9.teshu {
     padding: 0px 50px;
+    width: 100%;
   }
   .page-ui-index section .content-phone .container h2 {
     font-size: 30px;

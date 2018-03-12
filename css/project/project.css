@@ -79,7 +79,7 @@
   }
   #project-content .item .pageDiv p {
     font-size: 20px;
-    color: #434343;
+    color: #666;
     line-height: 35px;
   }
   #project-content .item:nth-child(2n) {
@@ -122,7 +122,7 @@
   }
   #project-content .item .pageDiv p {
     font-size: 0.390625rem;
-    color: #434343;
+    color: #666;
     line-height: 0.68359375rem;
   }
   #project-content .item:nth-child(2n) {
@@ -188,7 +188,7 @@
   }
   .page-ui-project section #project-content .item .pageDiv p {
     font-size: 0.33077143rem;
-    color: #434343;
+    color: #666;
     line-height: 0.82692857rem;
   }
   .page-ui-project section #project-content .item:nth-child(2n) {
@@ -246,7 +246,7 @@
   }
   .page-ui-project section #project-content .item .pageDiv p {
     font-size: 16px;
-    color: #434343;
+    color: #666;
     line-height: 25px;
     padding: 20px;
   }
