@@ -1,0 +1,256 @@
+.flex {
+  display: flex;
+}
+.flex.justify {
+  justify-content: space-between;
+}
+.flex.align {
+  align-items: center;
+}
+.page-ui-project section .content-top {
+  background-image: url(../../images/project/banner.png);
+  margin-bottom: 100px;
+}
+.page-ui-project section .mdShow {
+  display: none;
+}
+.page-ui-project section .title {
+  margin: 50px 0;
+}
+.page-ui-project section .title img {
+  margin: 0 auto;
+}
+.page-ui-project section .fuwu .flex-item {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+.page-ui-project section .fuwu .flex-item img {
+  margin-bottom: 20px;
+}
+.page-ui-project section .fenye {
+  text-align: center;
+}
+.page-ui-project section .fenye .pagination {
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.page-ui-project section .fenye .pagination a {
+  color: #30b3db;
+}
+.page-ui-project section .fenye .pagination .active a {
+  color: #fff;
+  background-color: #30b3db;
+  border-color: #30b3db;
+}
+.page-ui-project section #project-content .page {
+  display: none;
+}
+.page-ui-project section #project-content .page.active {
+  display: block;
+}
+@media screen and (min-width: 1200px) {
+  #project-content .item {
+    background: #f1f1f1;
+    min-height: 100px;
+    padding: 80px 0;
+    box-sizing: border-box;
+  }
+  #project-content .item .imgDiv {
+    order: 1;
+    width: 450px;
+    padding-right: 40px;
+  }
+  #project-content .item .imgDiv img {
+    vertical-align: middle;
+  }
+  #project-content .item .pageDiv {
+    flex: 1;
+    width: 720px;
+    order: 2;
+  }
+  #project-content .item .pageDiv h3 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  #project-content .item .pageDiv p {
+    font-size: 20px;
+    color: #434343;
+    line-height: 35px;
+  }
+  #project-content .item:nth-child(2n) {
+    background: #fff;
+  }
+  #project-content .item:nth-child(2n) .imgDiv {
+    order: 3;
+    padding-left: 40px;
+    padding-right: 0;
+  }
+  #project-content .item:nth-child(2n) .imgDiv img {
+    float: right;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  #project-content .item {
+    background: #f1f1f1;
+    min-height: 100px;
+    padding: 1.5625rem 0;
+    box-sizing: border-box;
+  }
+  #project-content .item .imgDiv {
+    order: 1;
+    padding-right: 0.78125rem;
+  }
+  #project-content .item .imgDiv img {
+    vertical-align: middle;
+  }
+  #project-content .item .pageDiv {
+    flex: 1;
+    width: 623px;
+    order: 2;
+  }
+  #project-content .item .pageDiv h3 {
+    font-size: 0.703125rem;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0.78125rem;
+  }
+  #project-content .item .pageDiv p {
+    font-size: 0.390625rem;
+    color: #434343;
+    line-height: 0.68359375rem;
+  }
+  #project-content .item:nth-child(2n) {
+    background: #fff;
+  }
+  #project-content .item:nth-child(2n) .imgDiv {
+    order: 3;
+    padding-left: 0.78125rem;
+    padding-right: 0;
+  }
+  #project-content .item:nth-child(2n) .imgDiv img {
+    float: right;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .page-ui-project section .content-top {
+    background-image: url(../../images/project/992_392ZP.jpg);
+    background-size: 100% 100%;
+  }
+  .page-ui-project section .title {
+    margin: 50px 0;
+  }
+  .page-ui-project section .title img {
+    margin: 0 auto;
+  }
+  .page-ui-project section .fuwu .flex-item {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 50px;
+    padding: 15px;
+  }
+  .page-ui-project section .fuwu .flex-item img {
+    margin-bottom: 20px;
+  }
+  .page-ui-project section #project-content .item {
+    background: #f1f1f1;
+    min-height: 2.36265307rem;
+    padding: 1.89012246rem 0;
+    box-sizing: border-box;
+  }
+  .page-ui-project section #project-content .item .imgDiv {
+    flex: 1;
+    order: 1;
+    padding-right: 0.94506123rem;
+  }
+  .page-ui-project section #project-content .item .imgDiv img {
+    float: right;
+  }
+  .page-ui-project section #project-content .item .imgDiv img {
+    vertical-align: middle;
+  }
+  .page-ui-project section #project-content .item .pageDiv {
+    flex: 1;
+    order: 2;
+    width: 623px;
+  }
+  .page-ui-project section #project-content .item .pageDiv h3 {
+    font-size: 0.66154286rem;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0.94506123rem;
+  }
+  .page-ui-project section #project-content .item .pageDiv p {
+    font-size: 0.33077143rem;
+    color: #434343;
+    line-height: 0.82692857rem;
+  }
+  .page-ui-project section #project-content .item:nth-child(2n) {
+    background: #fff;
+  }
+  .page-ui-project section #project-content .item:nth-child(2n) .imgDiv {
+    order: 3;
+    padding-left: 0.94506123rem;
+    padding-right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .page-ui-project section .content-top {
+    background-image: url(../../images/project/992_392ZP.jpg);
+    background-size: 100% 100%;
+    display: none;
+  }
+  .page-ui-project section .lgShow {
+    display: none;
+  }
+  .page-ui-project section .mdShow {
+    display: block;
+  }
+  .page-ui-project section .title {
+    margin: 1.25rem 0;
+  }
+  .page-ui-project section .title img {
+    margin: 0 auto;
+  }
+  .page-ui-project section .fuwu .flex-item {
+    font-size: 0.625rem;
+    color: #333;
+    margin-bottom: 1.25rem;
+  }
+  .page-ui-project section .fuwu .flex-item img {
+    margin-bottom: 0.625rem;
+    width: 4rem;
+  }
+  .page-ui-project section #project-content .flex {
+    display: block;
+  }
+  .page-ui-project section #project-content .item {
+    background: #f1f1f1;
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+  .page-ui-project section #project-content .item .imgDiv img {
+    vertical-align: middle;
+    margin: 0 auto;
+  }
+  .page-ui-project section #project-content .item .pageDiv h3 {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+  }
+  .page-ui-project section #project-content .item .pageDiv p {
+    font-size: 16px;
+    color: #434343;
+    line-height: 25px;
+    padding: 20px;
+  }
+  .page-ui-project section #project-content .item:nth-child(2n) {
+    background: #fff;
+  }
+}

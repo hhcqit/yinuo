@@ -6,47 +6,58 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>加入我们</title>
-   <!-- <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/8.0.0/normalize.css"> -->
-   <link rel="stylesheet" href="./css/normalize.css">
-   <link rel="stylesheet" href="./css/iconfont.css">
-   <link rel="stylesheet" href="./css/style.css">
-   <!-- <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script> -->
-   <script src='./js/jquery.js'></script>
-   <script src="./js/jquery.lazyload.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" media="screen" />
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./lib/bootstrap-3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/join/join.css">
+    <script src='./js/jquery.js'></script>
+    <script src="./js/jquery.lazyload.js"></script>
+    <script src="./lib/bootstrap-3.3.7/js/bootstrap.js"></script>
 </head>
 
 <body>
-    <header>
+    <header class="navbar" id="top">
         <div class="navTop">
-            <div class="mycontainer">
-                <div class="navTopRight">
-                    <a href="#">检验助手</a>
-                    <a href="login.html">一诺云检平台</a>
-                    <a href="#">
-                        <span class="iconfont icon-weibiaoti-"></span>
-                        400 734 8543
-                    </a>
+            <div class="container">
+                <div class="row">
+                    <div class="navTopRight">
+                        <a href="javascript:;">检验助手</a>
+                        <a href="login.html">一诺云检平台</a>
+                        <a href="javascript:;">
+                            <span class="iconfont icon-weibiaoti-"></span>
+                            400 878 6528
+                        </a>
 
-                </div>
-            </div>
-        </div>
-        <div class="mycontainer logoArea">
-            <div class="p-top">
-                <div class="lf">
-                    <a href="index.html">
-                        <img src="./images/index/logo.png"   alt="">
-                    </a>
-                </div>
-                <div class="rt">
-                    <div class="search">
-                        <input class="txtSearch">
-                        <button>
-                            <span class="iconfont icon-iconfontzhizuobiaozhun22"></span>
-                        </button>
                     </div>
                 </div>
             </div>
-            <div class="p-navbar">
+        </div>
+        <div class="container">
+            <div class="row logodiv">
+                <div class="col-xs-10 col-sm-6">
+                    <a href="index.html">
+                        <img style="max-width:100%;" src="./images/index/logo.png" alt="">
+                    </a>
+                </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <div class="col-xs-12 col-sm-3 col-sm-offset-3">
+                    <div class="input-group" style="margin-top:10px;">
+                        <input type="text" class="form-control" id="exampleInputAmount" placeholder="search...">
+                        <div class="input-group-addon">
+                            <span class="iconfont icon-iconfontzhizuobiaozhun22"></span>
+                        </div>
+                    </div>
+
+                </div> -->
+            </div>
+
+            <nav id="bs-navbar" class="collapse navbar-collapse">
                 <ul>
                     <li class="item">
                         <a href="index.html" class="">
@@ -54,17 +65,17 @@
                         </a>
                     </li>
                     <li class="item">
-                        <a href="#about" class="">
+                        <a href="index.html" class="">
                             关于我们
                         </a>
                     </li>
                     <li class="item">
-                        <a href="#jianyan" class="">
+                        <a href="project.html" class="">
                             检验服务
                         </a>
                     </li>
                     <li class="item">
-                        <a href="#" class="">
+                        <a href="javascript:;" class="">
                             服务合作
                         </a>
                     </li>
@@ -74,22 +85,26 @@
                         </a>
                     </li>
                     <li class="item active">
-                        <a href="#" class="">
+                        <a href="javascript:;" class="">
                             加入我们
                         </a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </header>
     <section>
         <div class="content-top">
-            <div class="mycontainer">
+            <div class="container">
             </div>
         </div>
-        <div class="mycontainer job">
+        <div>
+            <img class='mdShow' src="./images/join/768_392ZP.jpg" style="width:100%;" alt="">
+        </div>
+        <div class="container job">
             <div class="job-title">
                 <img src="./images/join/01.png" alt="">
+
             </div>
             <div class="job-content">
                 <h3>
@@ -102,14 +117,14 @@
                     2、根据产品开发进度和任务分配，独立开发相应的软件模块，负责系统的性能及可靠性的实现。
                 </p>
                 <p>
-                    3、键写及护软件计发过程中产生的系列文档
+                    3、编写及维护软件计开发过程中产生的系列文档
 
                 </p>
                 <p>
                     4、负责公司软件产品的bug修改和日常维护、升级；
                 </p>
                 <p>
-                    5、技术乐点的攻关,钢决项目中遇到的技木题。
+                    5、技术难点的攻关,解决项目中遇到的技术难题。
                 </p>
                 <h3>
                     岗位要求：
@@ -121,10 +136,10 @@
                     2、熟练掌握MYSQL数据库，能独立完成部分存储过程的编写，熟悉LINUX开发环境；
                 </p>
                 <p>
-                    3、熟悉jquery，javasc等相关技术；
+                    3、熟悉jquery，javascript等相关技术；
                 </p>
                 <p>
-                    4、熟悉SpringMVC、Spring、MyBatis等常用的集中框架；
+                    4、熟悉SpringMVC、Spring、MyBatis等常用的几种框架；
                 </p>
                 <p>
                     5、熟悉常用的WEB服务（tomact），有maven使用经验和WEB服务性能调优者优先；
@@ -141,23 +156,20 @@
                     岗位职责：
                 </h3>
                 <p>
-                    1、全程参与整个系统的设汁、开发、测试等过程
+                    1、全程参与整个系统的设计、开发、测试等过程
 
                 </p>
                 <p>
-                    2、协助技术负责人保证项目的质量,负贵项目中主要功能的代码实现;
-
+                    2、协助技术负责人保证项目的质量,负责项目中主要功能的代码实现;
                 </p>
                 <p>
                     3、能够和其它开发工程师协作工作；
-
                 </p>
                 <p>
-                    4、主导技术难题攻关:重构系统确保髙性能处理和系统的稳定性；
-
+                    4、主导技术难题攻关,重构系统确保髙性能处理和系统的稳定性；
                 </p>
                 <p>
-                    5、根据开发进度和任务分配，完成相应模块的开发、编程任务，并在开发过程中姐姐关键问题和技术难题。
+                    5、根据开发进度和任务分配，完成相应模块的开发、编程任务，并在开发过程中解决关键问题和技术难题。
                 </p>
                 <h3>
                     岗位要求：
@@ -166,7 +178,7 @@
                     1、计算机或相关专业本科毕业，5-7年左右工作经验；
                 </p>
                 <p>
-                    2、具有独立完成项目的开发实施工作，熟悉项目开发流程，具有较强的文档能力，能够编制给个阶段的项目文档；
+                    2、具有独立完成项目的开发实施工作，熟悉项目开发流程，具有较强的文档能力，能够编制各个阶段的项目文档；
                 </p>
                 <p>
                     3、熟悉掌握SpringMVC、Spring、MyBatics等开源框架
@@ -228,28 +240,31 @@
                 </p>
             </div>
         </div>
+        <div id="erweima">
+            <img src="./images/index/erweima.jpg" alt="">
+            <div>
+                了解更多信息
+            </div>
+            <div>
+                关注
+                <strong>一诺快检</strong> 公众号
+            </div>
+        </div>
     </section>
     <footer>
         <div class="connect">
             <img src="./images/index/whitelogo.png" alt="">
-            <p>客服热线：400 345 8484</p>
-            <p>地址：中国（杭州）人工智能小镇3号楼6楼</p>
+            <p>客服热线：400 878 6528</p>
+            <p>地址：中国(杭州)人工智能小镇3号楼6楼</p>
             <p>
-                友情链接：<a href="#">禾诺信息</a> <a href="#">世诺科技</a>  
+                友情链接：
+                <a href="javascript:;">禾诺信息</a>
+                <a href="javascript:;">世诺科技</a>
             </p>
         </div>
         <p>Copyright 2017-2018 All-Rights Reserverd.杭州一诺检验技术有限公司 &nbsp;&nbsp;&nbsp;ICP备案许可：浙江CP2018号-经营性</p>
     </footer>
-    <div id="erweima">
-        <img src="./images/index/erweima.png" alt="">
-        <div>
-            了解更多信息
-        </div>
-        <div>
-            关注
-            <strong>一诺检验</strong> 公众号
-        </div>
-    </div>
+
 </body>
 
 </html>

@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en" class="page-ui-common page-ui-project">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>检验服务详情</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" media="screen" />
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./lib/bootstrap-3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/project/project.css">
+    <script src='./js/jquery.js'></script>
+    <script src="./js/jquery.lazyload.js"></script>
+    <script src="./lib/bootstrap-3.3.7/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <header class="navbar" id="top">
+        <div class="navTop">
+            <div class="container">
+                <div class="row">
+                    <div class="navTopRight">
+                        <a href="javascript:;">检验助手</a>
+                        <a href="login.html">一诺云检平台</a>
+                        <a href="javascript:;">
+                            <span class="iconfont icon-weibiaoti-"></span>
+                            400 878 6528
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row logodiv">
+                <div class="col-xs-10 col-sm-6">
+                    <a href="index.html">
+                        <img style="max-width:100%;" src="./images/index/logo.png" alt="">
+                    </a>
+                </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <div class="col-xs-12 col-sm-3 col-sm-offset-3">
+                    <div class="input-group" style="margin-top:10px;">
+                        <input type="text" class="form-control" id="exampleInputAmount" placeholder="search...">
+                        <div class="input-group-addon">
+                            <span class="iconfont icon-iconfontzhizuobiaozhun22"></span>
+                        </div>
+                    </div>
+
+                </div> -->
+            </div>
+
+            <nav id="bs-navbar" class="collapse navbar-collapse">
+                <ul>
+                    <li class="item">
+                        <a href="index.html" class="">
+                            首页
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="index.html" class="">
+                            关于我们
+                        </a>
+                    </li>
+                    <li class="item  active">
+                        <a href="#" class="">
+                            检验服务
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:;" class="">
+                            服务合作
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="login.html" class="">
+                            报告查询
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="join.html" class="">
+                            加入我们
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="content-top">
+            <div class="container">
+            </div>
+        </div>
+        <div>
+            <img class='mdShow' src="./images/project/768_392ZP.jpg" style="width:100%;" alt="">
+        </div>
+
+        <div class="title">
+            <img class="img-responsive" src="./images/project/title.png" alt="">
+        </div>
+        <div class="container fuwu">
+            <div class="row">
+                <div class="flex justify">
+                    <div class="flex-item text-center">
+                        <img src="./images/project/neifenmi.png" alt="">
+                        <br> 内分泌疾病测定
+                    </div>
+                    <div class="flex-item text-center">
+                        <img src="./images/project/xinxueguan.png" alt="">
+                        <br> 心血管疾病测定
+                    </div>
+                    <div class="flex-item text-center">
+                        <img src="./images/project/weiliang.png" alt="">
+                        <br> 微量元素测定
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="flex justify">
+                    <div class="flex-item text-center">
+                        <img src="./images/project/fuyou.png" alt="">
+                        <br> 妇幼疾病测定
+                    </div>
+                    <div class="flex-item text-center">
+                        <img src="./images/project/yichuan.png" alt="">
+                        <br> 遗传染色体测定
+                    </div>
+                    <div class="flex-item text-center">
+                        <img src="./images/project/zhongliu.png" alt="">
+                        <br> 肿瘤标志物测定
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="flex justify">
+                    <div class="flex-item text-center">
+                        <img src="./images/project/ganran.png" alt="">
+                        <br> 感染性疾病测定
+                    </div>
+                    <div class="flex-item text-center">
+                        <img src="./images/project/mianyi.png" alt="">
+                        <br> 免疫功能测定
+                    </div>
+                    <div class="flex-item text-center">
+                        <img src="./images/project/shenghua.png" alt="">
+                        <br> 生化全套测定
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <img class="img-responsive" src="./images/project/title2.png" alt="">
+        </div>
+        <div>
+            <div class="content" id="project-content">
+                <div class="page page1 active" id="page1">
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class="img-responsive" data-original="./images/project/img1.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>肿瘤标志物测定</h3>
+                                        <p>
+                                            肿瘤标志物（TM）是指在恶性肿瘤发生和增殖过程中,由肿瘤细胞产生或机体反应而异常产生和/或升高的，反映肿瘤细胞特性的一类物质。TM虽然目前还不能用于确诊，但在疗效监测、预后、指示复发和高危人群的普查中具有独特的价值。临床上可选择一些特异性较高的TM联合测定某一肿瘤，有利于提高检出的阳性率。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/img3.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>糖化血红蛋白(HbA1c)测定</h3>
+                                        <p>
+                                            糖化血红蛋白可有效地反映糖尿病患者过去1～2个月内血糖控制的情况，与抽血时间、患者是否空腹、是否使用胰岛素等因素无关，是衡量血糖控制的金标准，也是诊断和管理糖尿病的重要手段。在糖尿病治疗中，糖化血红蛋白水平对评价血糖总体控制、发现治疗中存在的问题以及指导治疗方案均有重要的临床意义。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/wlys.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>微量元素测定</h3>
+                                        <p>
+                                            微量元素与人类健康有密切关系。它们的摄入过量、不足、或缺乏都会不同程度地引起人体生理的异常或发生疾病。尤其儿童时期微量元素的缺乏可以导致生长发育迟缓，免疫功能下降等。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/img4.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>血脂测定</h3>
+                                        <p>
+                                            血脂检查主要是对血液中所含脂类进行的一种定量测定的方法。主要是测定血清中的总胆固醇、甘油三酯、低密度脂蛋白胆固醇和高密度脂蛋白胆固醇的水平等。通过检查血浆中的血脂，可以预防或知晓是否患有肥胖症、动脉硬化、高血脂、冠心病、糖尿病、肾病综合征，以及其他一些心血管疾病。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/ygsx.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>乙肝三系测定</h3>
+                                        <p>
+                                            乙肝三系测定是目前国内医院最常用的乙肝病毒 (HBV)感染检测血清标志物。乙型肝炎病毒免疫学标记一共3对，即表面抗原(HBsAg)和表面抗体(抗HBs或HBsAb)、e抗原(HBeAg)和 e抗体(抗HBe或HBeAb)、核心抗原(HBcAg)和核心抗体(抗HBc或HBcAb)。
+                                            专家提醒：乙肝三系是用来判断是否感染乙肝或粗略估计病毒复制水平的初步检查，对于病情严重程度的评估参考性不大。而肝功能是衡量肝脏是否有肝细胞坏死获炎症存在的重要检查，其中转氨酶是重中之重，治疗需要以肝功能为重要参考指标。HBV
+                                            DNA检查是判断如何治疗的参考依据，同时也对传染性有一定的参考意义，一般DNA越高，传染性越强，也需要同肝功能一起检查。
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page page2" id="page2">
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/TCT.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>TCT液基细胞检查</h3>
+                                        <p>
+                                            宫颈癌是女性健康的重要杀手，其发病率在女性恶性肿瘤中居第二位，仅次于乳腺癌，并且发病年龄呈逐渐年轻化趋势。与传统的宫颈刮片巴氏涂片检查相比，TCT液基细胞检查明显提高了标本的满意度及宫颈异常细胞检出率，对宫颈癌细胞的检出率为100%，同时还能发现部分癌前病变。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/hpv.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>HPV组套测定</h3>
+                                        <p>
+                                            国内外的研究均已证实：宫颈感染人乳头瘤病毒（HPV），是发生宫颈癌的主要原因，致癌性人乳头瘤病毒（HPV）持续性感染，是导致子宫颈浸润癌及其高等级癌前期病变（CIN2,3包括原位癌）的主因。开展HPV DNA检测能更好的预防宫颈癌发生，从普通人群中筛查出宫颈癌高危妇女。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/xjm.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>心肌酶谱测定</h3>
+                                        <p>
+                                            心肌酶谱测定主要包括：肌酸磷酸激酶（CK）、肌激酶同工酶（CK-MB）、谷草转氨酶（AST）、乳酸脱氢酶（LDH)。当心肌细胞因多种原因发生炎症(心肌炎)、坏死(心肌梗死)时，心肌细胞中所含的酶类即可进入血中，血液内这些酶的活性(含量)增高。由于用于辅助诊断心脏病的酶类并非一种，故称为“心肌酶谱”。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/hxd.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>呼吸道抗体测定</h3>
+                                        <p>
+                                            由于近些年来的气候反常，环境变化，造成了呼吸道感染性疾病的爆发与流行，其中90%左右急性上呼吸道感染是由病毒性感染引起。病毒性上呼吸道感染也是儿童的常见病、多发病，一年四季均可发病，临床上表现为普通感冒症状，咽炎型上呼吸道感染，彼此可通过飞沫或污染的用具传播感染。而呼吸道病毒感染的及时诊断与处理，将减少因病毒感染损害上呼吸道局部防御机能，以及因此导致的上呼吸道继发细菌感染，避免不必要的抗生素使用。为临床合理用药，减少并发症提供重要依据。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/hhz.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>混合组过敏原测定</h3>
+                                        <p>
+                                            在临床上很多皮肤病的发生与发展都与接触了过敏原有关。而临床上多数过敏性疾病的患者通常只是做缓解症状的治疗，而没有找到引发过敏的真正原因，因而也就做不到针对性的预防和治疗，导致病情反复加重、迁延不愈。因而建议经常过敏的患者，一定要做一下过敏原筛查检测，查清楚到底是接触性的、食入性的还是吸入性的过敏原引起的过敏反应，以便从根本上解决问题。千万不要把过敏当成小毛病而忽略了检查和治疗，最终导致严重的后果。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="page page3" id="page3">
+
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/img5.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>性激素测定</h3>
+                                        <p>
+                                            通过测定性激素水平来了解女性内分泌功能和诊断与内分泌失调相关的疾病。常用的性激素六项即卵泡生成激素（FSH）、黄体生成激素（LH）、雌二醇（E2）、孕酮（P）、睾酮（T）、催乳激素（PRL）。基本满足了临床医生对内分泌失调与否的筛查和对生理功能的一般性了解。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/torch.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>TORCH测定</h3>
+                                        <p>
+                                            TORCH是指一组病原体：TO指弓形虫、R指风疹病毒、C指巨细胞病毒、H指单纯疱疹病毒。本检查常作为妇女怀孕期生殖道感染的常规检查项目，若感染了病毒可通过胎盘或产道传播感染胎儿会引起流产、早产、胎儿宫内死亡、胎儿脑积水、神经发育障碍、先天性心脏病等，对优生优育和习惯性流产的病因分析有参考价值。但是，由于孕妇通常无症状或症状很轻，因此易被忽视或不易诊断。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/byby.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>不孕不育抗体测定</h3>
+                                        <p>
+                                            免疫性不孕是指因免疫性因素而导致的不孕，免疫性不孕症约占不孕症患者中的10-30%，其中包含有抗精子抗体，抗子宫内膜抗体，抗卵子抗体等各类免疫性不孕。在免疫性不孕不育中，这些抗体的检测对免疫性不孕不育患者的诊断、治疗具有重要指导意义。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/img2.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>甲状腺功能测定</h3>
+                                        <p>
+                                            妊娠期女性可通过甲状腺激素的变化与下丘脑-垂体-甲状腺轴的调节来适应孕期逐渐增加的代谢需求，这对母婴健康有重要影响。甲状腺疾病是妊娠期常见合并症，几乎可累及全身各个系统，可导致母体出现妊娠期高血压疾病、流产、早产、胎盘早剥、低蛋白血症、产后出血及产后甲状腺功能异常等并发症，增加孕产妇死亡率；同时可影响胎儿神经系统的发育，造成后代不可逆的神经发育及智力水平低下，并可致胎儿生长受限、胎儿畸形、死胎、死产、使围生儿死亡率明显增高。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/dzh.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>地中海贫血基因测定</h3>
+                                        <p>
+                                            地中海贫血是人群中最常见的不完全显性的慢性溶血性贫血病，在广东、广西、海南有着较高的发病率，是我国南方重点防治的遗传性溶血性疾病，重型患者常因慢性溶血或反复感染在幼年期夭折。若夫妻为同型地中海型贫血的带因者，每次怀孕，其子女有1/4的机会为正常，1/2的机会为带因者，另1/4的机会为重型地中海贫血患者。因此，在遗传咨询及产前诊断方面，这是非常重要的疾病。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="page page4" id="page4">
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/dna.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>无创产前DNA测定</h3>
+                                        <p>
+                                            无创产前基因检测是一项新型的孕期胎儿染色体疾病检测技术，只需抽取孕妇的静脉血，利用新一代的测序技术和生物信息学方法，分析孕妇血液中含有的胎儿DNA信息，就可以准确判断出胎儿是否患有唐氏综合征等染色体疾病。目前只针对21-三体综合征、18-三体综合征、和13-三体综合征进行检测。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flex align">
+                                    <div class="imgDiv">
+                                        <div>
+                                            <img class=" img-responsive" data-original="./images/project/gu.png" src="./images/loading.jpg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="pageDiv">
+                                        <h3>骨标志物测定</h3>
+                                        <p>
+                                            骨标志物可反映全身性的骨代谢变化，IOF推荐使用骨标志物作为监测和随访的指标，它在3～6个月即能反映疗效和患者的治疗依从性，联合骨密度检测，可作为重要的诊断工具。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fenye">
+                <ul class="pagination pagination-lg">
+                    <li class="disabled">
+                        <a href="javascript:;" aria-label="Previous">
+                            <span aria-hidden="true">«</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#page1">1</a>
+                    </li>
+                    <li>
+                        <a href="#page2">2</a>
+                    </li>
+                    <li>
+                        <a href="#page3">3</a>
+                    </li>
+                    <li>
+                        <a href="#page4">4</a>
+                    </li>
+                    <li class="disabled">
+                        <a href="javascript:;" aria-label="Next">
+                            <span aria-hidden="true">»</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="erweima">
+            <img src="./images/index/erweima.jpg" alt="">
+            <div>
+                了解更多信息
+            </div>
+            <div>
+                关注
+                <strong>一诺快检</strong> 公众号
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="connect">
+            <img src="./images/index/whitelogo.png" alt="">
+            <p>客服热线：400 878 6528 </p>
+            <p>地址：中国(杭州)人工智能小镇3号楼6楼</p>
+            <p>
+                友情链接：
+                <a href="javascript:;">禾诺信息</a>
+                <a href="javascript:;">世诺科技</a>
+            </p>
+        </div>
+        <p>Copyright 2017-2018 All-Rights Reserverd.杭州一诺检验技术有限公司 &nbsp;&nbsp;&nbsp;ICP备案许可：浙江CP2018号-经营性</p>
+    </footer>
+    <script src='./js/common.js'></script>
+    <script>
+        $(function () {
+            $(document).ready(function () {
+                $(".page img").lazyload({　　　　　　　　　　　
+                    effect: "fadeIn"
+                });　　　　　　
+            });
+            $('.pagination').on('click', 'li:not(".disabled")', function () {
+                if ($(this).hasClass('active')) {
+                    return false
+                } else {
+                    $(this).addClass('active').siblings('.active').removeClass('active');
+                    $($(this).children().attr('href')).addClass('active').siblings('.active').removeClass(
+                        'active');
+                }
+
+            })
+        })
+    </script>
+</body>
+
+</html>

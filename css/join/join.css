@@ -1,0 +1,50 @@
+.page-ui-join section .content-top {
+  background-image: url(../../images/join/banner.png);
+}
+.page-ui-join section .mdShow {
+  display: none;
+}
+.page-ui-join section > .container.job .job-title {
+  text-align: center;
+  padding: 20px 0;
+}
+.page-ui-join section > .container.job .job-content {
+  margin-bottom: 50px;
+}
+.page-ui-join section > .container.job .job-content h3 {
+  font-size: 28px;
+}
+.page-ui-join section > .container.job .job-content p {
+  font-size: 20px;
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .page-ui-join section .content-top {
+    background-image: url(../../images/join/992_392ZP.jpg);
+    background-size: 100% 100%;
+  }
+}
+@media (max-width: 768px) {
+  .page-ui-join section .content-top {
+    background-image: url(../../images/join/768_392ZP.jpg);
+    background-size: 100% 100%;
+    display: none;
+  }
+  .page-ui-join section .lgShow {
+    display: none;
+  }
+  .page-ui-join section .mdShow {
+    display: block;
+  }
+  .page-ui-join section .container.job .job-title img {
+    width: 180px;
+  }
+  .page-ui-join section .container.job .job-content {
+    margin-bottom: 50px;
+  }
+  .page-ui-join section .container.job .job-content h3 {
+    font-size: 20px;
+  }
+  .page-ui-join section .container.job .job-content p {
+    font-size: 16px;
+  }
+}

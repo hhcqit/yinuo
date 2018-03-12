@@ -24,29 +24,193 @@ li {
     float: right;
 }
 
-#erweima {
-    width: 10%;
-    min-width: 120px;
-    position: fixed;
-    right: 10px;
-    bottom: 100px;
-    text-align: center;
-    strong {
-        color: #0091be;
-    }
-    img {
-        width: 100%;
-    }
-}
 
 .nav>li>a:hover,
 .nav>li>a:focus {
     text-decoration: none;
     background-color: #fff;
 }
+a:hover,a:active,a:focus{
+    text-decoration: none;
+}
+#jianyan {
+    >h2 {
+        font-size: 46px*0.8;
+        color: #0091be;
+        font-weight: 400;
+        margin: 0;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    >.row {
+        >div {
+            margin-bottom: 20px;
+        }
+    }
+    .index-news-list {
+        background-color: #f1f1f1;
+        height: 148px;
+        div {
+            height: 88px;
+            padding-right: 88px;
+            background-image: url(../../images/index/xinlv.png);
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: contain;
+        }
+        
+        padding:20px 40px;
+        .title {
+            font-size: 25.6px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .cont {
+            font-size: 17.6px;
+            color: #666;
+        }
+    }
+    .advertise {
+        margin-bottom: 20px;
+    }
+    
+    .index-news-list.jiyin {
+        div {
+            background-image: url(../../images/index/jiyin.png);
+        }
+    }
+    .index-news-list.tingzhenqi {
+        div {
+            background-image: url(../../images/index/tingzhenqi.png);
+        }
+    }
+    .index-news-list.bingdu {
+        div {
+            background-image: url(../../images/index/bingdu.png);
+        }
+    }
+    .index-news-list:hover{
+        div {
+        background-image: url(../../images/index/xinlv2.png);
+        }
+    }
+    .index-news-list.jiyin:hover {
+        div {
+            background-image: url(../../images/index/jiyin2.png);
+        }
+    }
+    .index-news-list.tingzhenqi:hover {
+        div {
+            background-image: url(../../images/index/tingzhenqi2.png);
+        }
+    }
+    .index-news-list.bingdu:hover {
+        div {
+            background-image: url(../../images/index/bingdu2.png);
+        }
+    }
+    .index-news-list:hover {
+        background-color: #2fb3da;
+        .title,
+        .cont {
+            color: #fff;
+        }
+    } // .img-responsive{
+    //     margin:10px 0;
+    // }
+}
 
-
-@media screen and  (max-width:768px) {
+.content-zhenshu {
+    .h2 {
+        font-size: 36.8px;
+        color: #0091be;
+        font-weight: 400;
+        margin: 0;
+        padding: 20px 0;
+        text-align: center;
+    }
+    p {
+        font-size: 17.6px;
+        color: #434343;
+        text-align: center;
+        line-height:2em;
+    }
+}
+.img-responsive{
+    margin:0 auto;
+}
+#about{
+   >h2{
+    font-size: 36.8px;
+    color: #0091be;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+   }
+   img{
+       margin-bottom:1em; 
+   }
+   .content{
+    text-align: left;
+    text-indent: 2em;
+    line-height: 2em;
+    font-size: 20px;
+    color: #28292a;
+    margin: 20px 0;
+   }
+}
+#morePro {
+    margin: 50px auto 50px;
+    padding: 18px 0;
+    text-align: center;
+    background: #00bea2;
+    width: 246px;
+    display: block;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 24px;
+}
+#morePro:hover,#morePro:active{
+    opacity: 0.9;
+}
+#module {
+    margin: 60px auto;
+    .p-title {
+        height: 55px*0.8;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgb(47, 179, 218);
+        >div {
+            width: 196px;
+            height: 55px*0.8;
+            line-height: 55px*0.8;
+            color: #fff;
+            font-size: 32px*0.8;
+            box-sizing: border-box;
+            background-color: #30b3db;
+            border-top-left-radius: 20px;
+            position: relative;
+            margin: 10px 0;
+            padding-left: 20px;
+            >img {
+                position: absolute;
+                right: -17px*0.8;
+                top: -18px*0.8;
+            }
+        }
+    }
+    p {
+        text-align: left;
+        text-indent: 2em;
+        line-height: 2em;
+        font-size: 25px*0.8;
+        color: #28292a;
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width:768px) {
     .page-ui-index {
         section {
             .content-top {
@@ -60,6 +224,7 @@ li {
                     font-size: 22px;
                     color: #fff;
                     padding: 15px 0;
+                    margin-bottom: 0;
                 }
                 .items {
                     padding: 15px;
@@ -126,7 +291,7 @@ li {
                     background-position: right bottom;
                     background-size: 320rem/32.8*0.8 416rem/32.8*0.8;
                     h2 {
-                        font-size: 1.14rem;
+                        font-size: 1rem;
                         color: #0091be;
                         font-weight: 400;
                         margin: 0;
@@ -144,6 +309,7 @@ li {
                         h3 {
                             color: #333;
                             text-align: center;
+                            margin:0.5rem 0;
                             font-size: 28rem/32.8*0.8;
                             strong {
                                 color: #0091be;
@@ -153,71 +319,35 @@ li {
                 }
             }
             #jianyan {
-                >h2 {
-                    font-size: 46rem/43.6907*0.8;
+                .index-news-list {
+                    padding: 20px 40px;
+                    .title {
+                        font-size: 25.6px;
+                    }
+                    .cont {
+                        font-size: 15px;
+                    }
+                } // .index-news-list{
+            }
+            .content-zhenshu {
+                .h2 {
+                    font-size: 22px;
                     color: #0091be;
                     font-weight: 400;
                     margin: 0;
-                    padding-top: 60rem/43.6907;
-                    padding-bottom: 60rem/43.6907;
+                    padding: 20px 0;
                     text-align: center;
                 }
-                >.row {
-                    >.col-xs-6 {
-                        >div {
-                            margin-bottom: 20rem/43.6907;
-                            padding-left: 40rem/43.6907;
-                            background: #f1f1f1;
-                            height:140rem/32.64;
-                            >a {
-                                .row {
-                                    .col-xs-8 {
-                                        .title {
-                                            font-size: 32rem/43.6907*0.8;
-                                            color: #333;
-                                            margin: 10rem/43.6907 0;
-                                        }
-                                        .cont {
-                                            margin: 10rem/43.6907 0;
-                                            font-size: 22*0.8rem/43.6907;
-                                            color: #666;
-                                            line-height: 2em;
-                                        }
-                                    }
-                                    .col-xs-4 {
-                                        padding-top: 20rem/32.8;
-                                        img {
-                                            max-width: 100%;
-                                            width:100rem/32.64;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    >.col-xs-6.active {
-                        >div {
-                            background: #2fb3da;
-                            >a {
-                                .row {
-                                    color: #fff;
-                                    .col-xs-8 {
-                                        .title {
-                                            color: #fff;
-                                        }
-                                        .cont {
-                                            color: #fff;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
+                p {
+                    font-size: 14.6px;
+                    color: #434343;
+                    text-align: center;
                 }
-               
             }
-          
         }
+    }
+    #module {
+        margin: 0px auto;
     }
 }
 
@@ -325,13 +455,18 @@ li {
                 height: 580px*0.8;
                 box-sizing: border-box;
                 .container {
+                    >.row{
+                        .col-xs-8{
+                            padding: 0px 50px;
+                        }
+                    }
                     height: 580px*0.8;
                     position: relative;
                     background-image: url(../../images/index/hands.png);
                     background-repeat: no-repeat;
                     background-position: right bottom;
                     h2 {
-                        font-size: 46px*0.8;
+                        font-size: 30px;
                         color: #0091be;
                         font-weight: 400;
                         margin: 0;
@@ -349,7 +484,7 @@ li {
                         h3 {
                             color: #333;
                             text-align: center;
-                            font-size: 28px*0.8;
+                            font-size: 18px;
                             strong {
                                 color: #0091be;
                             }
@@ -358,67 +493,32 @@ li {
                 }
             }
             #jianyan {
-                >h2 {
-                    font-size: 46px*0.8;
-                    color: #0091be;
-                    font-weight: 400;
-                    margin: 0;
-                    padding-top: 60px;
-                    padding-bottom: 60px;
-                    text-align: center;
-                }
-                >.row {
-                    >.col-xs-6 {
-                        >div {
-                            margin-bottom: 20px;
-                            padding: 0 40px;
-                            background: #f1f1f1;
-                            >a {
-                                .row {
-                                    .col-xs-8 {
-                                        .title {
-                                            font-size: 32px*0.8;
-                                            color: #333;
-                                            margin: 10px 0;
-                                        }
-                                        .cont {
-                                            margin: 10px 0;
-                                            font-size: 14.6rem/42.2827;
-                                            color: #666;
-                                            line-height: 0.5rem;
-                                        }
-                                    }
-                                    .col-xs-4 {
-                                        padding-top: 20px;
-                                        img {
-                                            max-width: 100%;
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                .index-news-list {
+                    padding: 20px 40px;
+                    .title {
+                        font-size: 25.6px;
                     }
-                    >.col-xs-6.active {
-                        >div {
-                            background: #2fb3da;
-                            >a {
-                                .row {
-                                    color: #fff;
-                                    .col-xs-8 {
-                                        .title {
-                                            color: #fff;
-                                        }
-                                        .cont {
-                                            color: #fff;
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                    .cont {
+                        font-size: 15px;
                     }
-                }
-               
+                } // .index-news-list{
             }
+            
+.content-zhenshu {
+    .h2 {
+        font-size: 26.8px;
+        color: #0091be;
+        font-weight: 400;
+        margin: 0;
+        padding: 20px 0;
+        text-align: center;
+    }
+    p {
+        font-size: 14.6px;
+        color: #434343;
+        text-align: center;
+    }
+}
         }
     }
 }
@@ -559,73 +659,11 @@ li {
                     }
                 }
             }
-            #jianyan {
-                >h2 {
-                    font-size: 46px*0.8;
-                    color: #0091be;
-                    font-weight: 400;
-                    margin: 0;
-                    padding-top: 60px;
-                    padding-bottom: 60px;
-                    text-align: center;
-                }
-                >.row {
-                    >.col-xs-6 {
-                        >div {
-                            margin-bottom: 20px;
-                            padding: 0 40px;
-                            background: #f1f1f1;
-                            >a {
-                                .row {
-                                    .col-xs-8 {
-                                        .title {
-                                            font-size: 32px*0.8;
-                                            color: #333;
-                                            margin: 10px 0;
-                                        }
-                                        .cont {
-                                            margin: 10px 0;
-                                            font-size: 22*0.8px;
-                                            color: #666;
-                                            line-height: 2em;
-                                        }
-                                    }
-                                    .col-xs-4 {
-                                        padding-top: 20px;
-                                        img {
-                                            max-width: 100%;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    >.col-xs-6.active {
-                        >div {
-                            background: #2fb3da;
-                            >a {
-                                .row {
-                                    color: #fff;
-                                    .col-xs-8 {
-                                        .title {
-                                            color: #fff;
-                                        }
-                                        .cont {
-                                            color: #fff;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-               
-            }
         }
     }
 }
 
-@media screen and  (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .page-ui-index {
         section {
             .content-top {
@@ -760,68 +798,6 @@ li {
                         }
                     }
                 }
-            }
-            #jianyan {
-                >h2 {
-                    font-size: 46px*0.8;
-                    color: #0091be;
-                    font-weight: 400;
-                    margin: 0;
-                    padding-top: 60px;
-                    padding-bottom: 60px;
-                    text-align: center;
-                }
-                >.row {
-                    >.col-xs-6 {
-                        >div {
-                            margin-bottom: 20px;
-                            padding: 0 40px;
-                            background: #f1f1f1;
-                            >a {
-                                .row {
-                                    .col-xs-8 {
-                                        .title {
-                                            font-size: 32px*0.8;
-                                            color: #333;
-                                            margin: 10px 0;
-                                        }
-                                        .cont {
-                                            margin: 10px 0;
-                                            font-size: 22*0.8px;
-                                            color: #666;
-                                            line-height: 2em;
-                                        }
-                                    }
-                                    .col-xs-4 {
-                                        padding-top: 20px;
-                                        img {
-                                            max-width: 100%;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    >.col-xs-6.active {
-                        >div {
-                            background: #2fb3da;
-                            >a {
-                                .row {
-                                    color: #fff;
-                                    .col-xs-8 {
-                                        .title {
-                                            color: #fff;
-                                        }
-                                        .cont {
-                                            color: #fff;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-               
             }
         }
     }

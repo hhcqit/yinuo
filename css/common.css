@@ -19,24 +19,155 @@ li {
 .rt {
   float: right;
 }
-#erweima {
-  width: 10%;
-  min-width: 120px;
-  position: fixed;
-  right: 10px;
-  bottom: 100px;
-  text-align: center;
-}
-#erweima strong {
-  color: #0091be;
-}
-#erweima img {
-  width: 100%;
-}
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
   background-color: #fff;
+}
+/*
+*login.html
+*/
+.page-ui-common.page-ui-login {
+  min-width: initial;
+  background: #97d9ed;
+  background-image: url(../images/login/bottom.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  min-height: 100%;
+  min-width: 350px;
+  height: 800px;
+}
+.page-ui-common.page-ui-login section .content-top {
+  background-image: url(../images/join/banner.jpg);
+}
+.page-ui-common.page-ui-login section > .mycontainer.job .job-title {
+  text-align: center;
+  padding: 20px 0;
+}
+.page-ui-common.page-ui-login section > .mycontainer.job .job-content {
+  margin-bottom: 50px;
+}
+.page-ui-common.page-ui-login section > .mycontainer.job .job-content h3 {
+  font-size: 28px;
+}
+.page-ui-common.page-ui-login section > .mycontainer.job .job-content p {
+  font-size: 20px;
+}
+.page-ui-common.page-ui-login .loginBox {
+  width: 468px;
+  max-width: 90%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1000;
+}
+.page-ui-common.page-ui-login .loginBox .loginBox-top {
+  padding: 0 15px;
+  background: #30b3db;
+}
+.page-ui-common.page-ui-login .loginBox .loginBox-top .row .col-xs-4 {
+  height: 150px;
+  line-height: 150px;
+  text-align: right;
+}
+.page-ui-common.page-ui-login .loginBox .loginBox-top .row .col-xs-8 {
+  height: 150px;
+  padding: 25px 0;
+}
+.page-ui-common.page-ui-login .loginBox .loginBox-top .c-title {
+  font-size: 36px;
+  color: #fff;
+  text-align: left;
+}
+.page-ui-common.page-ui-login .loginBox .loginBox-top .e-title {
+  font-size: 22px;
+  text-align: left;
+  color: #fff;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child {
+  padding: 10%;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child form .form-group input {
+  padding-left: 34px;
+  font-size: 18px;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child form .form-group > span {
+  left: 0;
+  color: #cccccc;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child form .form-group.code {
+  line-height: 34px;
+  color: #cccccc;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child form .form-group.code a {
+  color: #30b3db;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child form #loginBtn {
+  background: #2fb3da;
+  border: 0;
+}
+.page-ui-common.page-ui-login .loginBox > div:last-child form #kaptchaImage {
+  width: 80px;
+  height: 32px;
+}
+.page-ui-common.page-ui-login body {
+  min-height: 100%;
+  position: relative;
+  padding-top: 100px;
+  overflow: hidden;
+}
+.page-ui-common.page-ui-login body > .circle {
+  background: url(../images/login/circluar.png) no-repeat;
+  background-size: 100% 100%;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+}
+.page-ui-common.page-ui-login body .circle.circle-lg {
+  width: 120px;
+  height: 120px;
+}
+.page-ui-common.page-ui-login body .circle.circle-sm {
+  width: 65px;
+  height: 65px;
+}
+.page-ui-common.page-ui-login body #circle1 {
+  left: 50px;
+  top: 280px;
+}
+.page-ui-common.page-ui-login body #circle2 {
+  left: 100px;
+  top: 495px;
+}
+.page-ui-common.page-ui-login body #circle3 {
+  left: 394px;
+  top: 690px;
+}
+.page-ui-common.page-ui-login body #circle4 {
+  right: 350px;
+  top: 680px;
+}
+.page-ui-common.page-ui-login body #circle5 {
+  right: 150px;
+  top: 280px;
+}
+.page-ui-common.page-ui-login body #circle6 {
+  right: 250px;
+  top: 480px;
+}
+@media (max-width: 400px) {
+  .page-ui-common.page-ui-login .loginBox .loginBox-top div.c-title,
+  .page-ui-common.page-ui-login .loginBox .loginBox-top div.e-title {
+    font-size: 2rem;
+    height: 50px;
+  }
+  .page-ui-common.page-ui-login .loginBox .loginBox-top div.e-title {
+    font-size: 1.5rem;
+  }
 }
 @media (min-width: 768px) {
   .page-ui-common header .navTop {
@@ -50,7 +181,7 @@ li {
   }
   .page-ui-common header .navTop .navTopRight a {
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 15px;
   }
   .page-ui-common header .navTop .navTopRight a:hover {
@@ -102,6 +233,7 @@ li {
     color: #fff;
     font-size: 19.2px;
     margin: 14px 0;
+    margin-bottom: 0;
   }
   .page-ui-common footer .connect p a {
     color: #fff;
@@ -121,8 +253,27 @@ li {
     background: url(../images/index/banner.jpg) no-repeat;
     background-position: center center;
   }
+  #erweima {
+    width: 160px;
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    text-align: center;
+  }
+  #erweima div {
+    font-size: 16px;
+  }
+  #erweima strong {
+    color: #0091be;
+  }
+  #erweima img {
+    width: 160px;
+  }
 }
 @media (max-width: 768px) {
+  #searchBox {
+    display: none;
+  }
   .page-ui-common header .navTop {
     height: 32px;
     background: #30b3db;
@@ -185,6 +336,7 @@ li {
     padding-left: 15px;
     padding-right: 15px;
     margin: 14px 0;
+    margin-bottom: 0;
   }
   .page-ui-common footer .connect p a {
     color: #fff;
@@ -205,5 +357,19 @@ li {
     height: 392px;
     background: url(../images/index/banner.jpg) no-repeat;
     background-position: center center;
+  }
+  #erweima {
+    text-align: center;
+    padding: 20px 0;
+  }
+  #erweima div {
+    font-size: 16px;
+    margin: 0 auto;
+  }
+  #erweima strong {
+    color: #0091be;
+  }
+  #erweima img {
+    max-width: 160px;
   }
 }
